@@ -1,0 +1,145 @@
+  
+
+ Day-2 Assignment(TASK-2)
+
+ 1Q) List 5 difference between Browser JS(console) v Nodejs?
+ ANS:-JS(CONSOLE):-
+       1)Window is predefined global object
+       2)It has functions and atrribues
+       3)Require is not predefined object
+       4)Module is not required
+      
+      NODE JS:-
+       1)Window is not predefined global object
+       2)It doesnot have functions and attribute
+       3)Require is predefined object
+       4)Module is required
+ 
+ 2Q) watch & summary 5 points - 
+ ANS:-1) Parsing HTML
+      2) Tokenizer
+      3) DOM+CSSOM
+      4) Calculating visual properties
+      5) Recursive process
+
+ 3Q)  https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags
+ 
+ 4Q) Execute the below code and write your description in txt file
+ Ans:-a)typeof(1)
+       Code:-
+             // Let a=1
+               let a=1
+               console.log(typeof(a))
+
+             OUTPUT:
+             number
+             Execution Time:
+             0.065s
+             Memory Used:
+             8180kb
+    
+       b)typeof(1.1)
+        Code:-
+           // let b=1.1
+             let b=1.1
+              console.log(typeof(b))
+       
+             OUTPUT:
+             number
+             Execution Time:
+             0.065s
+             Memory Used:
+             8104kb
+
+        C)typeof('1.1')
+          Code:-
+          let c="1.1"
+          console.log(typeof(c))
+           
+          OUTPUT:
+          string
+          Execution Time:
+          0.064s
+          Memory Used:
+          8104kb
+   
+         d)typeof(true)
+          Code:-
+          let d=true
+          console.log(typeof(d))
+ 
+         OUTPUT::
+         boolean
+         Execution Time:
+         0.065s
+         Memory Used:
+         8104kb
+ 
+
+         e)typeof(null)
+           let e=null
+           console.log(typeof(e))
+  
+           OUTPUT:
+           object
+           Execution Time:
+           0.065s
+           Memory Used:
+           8072kb
+
+          f)typeof(undefined)
+            let f=undefined
+            console.log(typeof(f))
+
+            OUTPUT:
+            undefined
+            Execution Time:
+            0.065s
+            Memory Used:
+            8092kb
+            
+          g)typeof([])
+            let g=[]
+            console.log(typeof(g))
+ 
+            OUTPUT:
+            object
+            Execution Time:
+            0.065s
+            Memory Used:
+            8080kb
+            
+         h)typeof({})
+           let h={}
+           console.log(h)
+           
+           OUTPUT:
+           object
+           Execution Time:
+           0.064s
+           Memory Used:
+           8064kb
+
+        i)typeof(NaN)
+          let i=NaN
+          console.log(typeof(i))
+
+          OUTPUT:
+          number
+          Execution Time:
+          0.065s
+          Memory Used:
+          8064kb
+     
+ 5Q) Read what is prototype?
+ Ans:-All JavaScript objects inherit properties and methods from a prototype.
+
+
+
+
+
+
+
+
+
+
